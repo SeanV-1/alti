@@ -1,0 +1,6 @@
+{
+  "name": "Altitude Beverages",
+  "description": "Monochrome editorial landing experience and interactive functional beverage catalog for Altitude Beverages.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
