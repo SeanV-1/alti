@@ -17,7 +17,7 @@ const PRODUCTS_CATALOG: Beverage[] = [
     activeIngredients: ["L-Theanine (200mg)", "Lion's Mane (150mg)", "Magnesium (100mg)"],
     sensoryNotes: "Bright, tart lime skin, wild watermelon flesh, subtle earthy desert cactus bloom.",
     colorAccent: "#38bdf8",
-    imageUrl: "/src/assets/images/models/hero-small-img2.png"
+    imageUrl: "/images/hero-small-img2.png"
   },
   {
     id: "lilikoi",
@@ -30,7 +30,7 @@ const PRODUCTS_CATALOG: Beverage[] = [
     activeIngredients: ["L-Theanine (200mg)", "Lion's Mane (150mg)", "Magnesium (100mg)"],
     sensoryNotes: "Tart passionfruit punch, roasted marzipan, caramelized sugar cane.",
     colorAccent: "#e11d48",
-    imageUrl: "/src/assets/images/models/hero-small-img3.png"
+    imageUrl: "/images/hero-small-img3.png"
   },
   {
     id: "rosemary",
@@ -43,7 +43,7 @@ const PRODUCTS_CATALOG: Beverage[] = [
     activeIngredients: ["L-Theanine (200mg)", "Lion's Mane (150mg)", "Magnesium (100mg)"],
     sensoryNotes: "Pine resin, crisp pine needles, wet clay, bittersweet orange peel.",
     colorAccent: "#fb923c",
-    imageUrl: "/src/assets/images/models/hero-small-img.png"
+    imageUrl: "/images/hero-small-img.png"
   }
 ];
 

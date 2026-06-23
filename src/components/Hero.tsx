@@ -17,7 +17,7 @@ const PRODUCTS_DATA: Beverage[] = [
     activeIngredients: ["L-Theanine (200mg)", "Lion's Mane (150mg)", "Magnesium (100mg)"],
     sensoryNotes: "Bright, tart lime skin, wild watermelon flesh, subtle earthy desert cactus bloom.",
     colorAccent: "#38bdf8",
-    imageUrl: "/src/assets/images/models/hero-img2.png"
+    imageUrl: "/images/hero-img2.png"
   },
   {
     id: "rosemary",
@@ -30,7 +30,7 @@ const PRODUCTS_DATA: Beverage[] = [
     activeIngredients: ["L-Theanine (200mg)", "Lion's Mane (150mg)", "Magnesium (100mg)"],
     sensoryNotes: "Pine resin, crisp pine needles, wet clay, bittersweet orange peel.",
     colorAccent: "#fb923c",
-    imageUrl: "/src/assets/images/models/hero-img1.png"
+    imageUrl: "/images/hero-img1.png"
   },
   {
     id: "lilikoi",
@@ -43,7 +43,7 @@ const PRODUCTS_DATA: Beverage[] = [
     activeIngredients: ["L-Theanine (200mg)", "Lion's Mane (150mg)", "Magnesium (100mg)"],
     sensoryNotes: "Tart passionfruit punch, roasted marzipan, caramelized sugar cane.",
     colorAccent: "#e11d48",
-    imageUrl: "/src/assets/images/models/hero-img3.png"
+    imageUrl: "/images/hero-img3.png"
   }
 ];
 
@@ -266,9 +266,9 @@ export default function Hero({ onAddToCart }: HeroProps) {
                   <div className="relative w-full aspect-[3/4] mb-4 bg-black/20 rounded-[20px] overflow-hidden flex items-center justify-center">
                     <img
                       src={
-                        prod.id === "rosemary" ? "/src/assets/images/models/hero-small-img.png" :
-                        prod.id === "margarita" ? "/src/assets/images/models/hero-small-img2.png" :
-                        prod.id === "lilikoi" ? "/src/assets/images/models/hero-small-img3.png" :
+                        prod.id === "rosemary" ? "/images/hero-small-img.png" :
+                        prod.id === "margarita" ? "/images/hero-small-img2.png" :
+                        prod.id === "lilikoi" ? "/images/hero-small-img3.png" :
                         prod.imageUrl
                       }
                       alt={prod.name}
